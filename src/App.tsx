@@ -76,7 +76,7 @@ function App() {
 
       {/* Modal */}
       <Modal isOpen={modalOpen} onClose={() => setModalOpen(false)} title="Confirmar Acción">
-        <p className="text-[#1C5560]">¿Estás seguro que deseas continuar mediocre 😒?</p>
+        <p className="text-[#1C5560]">¿Estás seguro que deseas continuar mediocre ?</p>
         <div className="flex justify-end mt-4 gap-2">
           <Button label="Cancelar" variant="secondary" onClick={() => setModalOpen(false)} />
           <Button label="Confirmar" variant="primary" onClick={() => setModalOpen(false)} />
